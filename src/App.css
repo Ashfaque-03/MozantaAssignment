@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+}
+
+.stdForm{
+  width: 35%;
+}
+.stdTable{
+  width: 61%;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+/* @media screen and (min-width:751px) {
+
+} */
+@media screen and (max-width:750px) {
+  
+  .App-header {
+    flex-direction: column;
+    align-items: center;
+  }
+  .stdForm{
+    margin-top: 20px;
+    width: 100%;
+  }
+  .stdTable{
+    width: 98%;
+  }
+
+}

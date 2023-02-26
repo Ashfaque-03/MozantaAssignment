@@ -1,0 +1,86 @@
+.right-box {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+h2,
+h3,
+h5 {
+    margin: 0%;
+}
+
+#tableHead {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.select {
+    padding-left: 10px;
+    padding-right: 20px;
+    height: 35px;
+    border: none;
+    outline: none;
+    margin-top: -1px;
+    font-size: 17px;
+    font-weight: 600;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: transparent;
+    background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: 5px;
+
+}
+
+.downIcon {
+    position: absolute;
+    margin-left: 60px;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+option {
+    border-radius: 0;
+}
+
+#tableBox {
+    width: 90%;
+    padding: 20px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    background-color: aliceblue;
+    color: rgb(21, 16, 36);
+    height: 550px;
+    overflow-y: scroll;
+}
+
+.Tfields {
+    background-color: #064069;
+    color: rgb(216, 227, 232);
+}
+
+h4 {
+    margin-bottom: 20px;
+}
+
+.delIcon {
+    color: #040d32;
+}
+
+
+@media screen and (min-width:751px) {}
+
+@media screen and (max-width:750px) {
+    .right-box {
+        height: auto;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+}

@@ -1,0 +1,141 @@
+.left-box{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: black;
+    flex-direction: column;
+
+}
+h2,h3,h5{
+    margin: 0%;
+}
+#head{
+    color: grey;
+}
+#school{
+    color: aliceblue;
+}
+.inpBox{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    border: 0px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#typeText{
+    margin-bottom: 15px;
+    height: 40px;
+    text-transform: capitalize;
+}
+.inp{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background: none;
+    color: rgb(0, 0, 0);
+    border: 1px solid #a3aec1;
+}
+.inp:focus, .sel:focus{
+    border: 1.8px solid #3B71CA;
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+input[type="date"] {
+    position: relative;
+    padding: 10px;
+  }
+  
+  input[type="date"]::-webkit-calendar-picker-indicator {
+    background: none;
+    z-index: 1;
+    cursor: pointer;
+  }
+  
+  input[type="date"]:before {
+    color: transparent;
+    background: none;
+    display: block;
+    font-family: 'FontAwesome';
+    content: '\f073';
+    /* This is the calendar icon in FontAwesome */
+    position: absolute;
+    right: 6px;
+    color: #1e4f9c;
+  }
+.sel{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background: none;
+    color: rgb(0, 0, 0);
+    border: 1px solid #a3aec1;
+}
+.centered{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.spaceAround{
+    justify-content: space-around;
+}
+.refreshIcon{
+    position: absolute;
+    margin-top: -10px;
+    margin-left: 4.7%;
+    color: #0c2b66;
+    font-size: 18px;
+}
+.gender{
+    width: 30%;
+}
+.genderBox{
+    margin: 10px;
+}
+.radioBtn{
+    margin-left: 10px;
+}
+#inpSubmit{
+    width: 50%;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: green;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+#inpSubmit:active{
+    transform: scale(0.98);
+}
+
+
+@media screen and (min-width:751px) {
+
+}
+@media screen and (max-width:750px) {
+    .left-box{
+            height: auto;
+            padding-bottom: 20px;
+            padding-top: 20px;
+    }
+    .refreshIcon{
+        margin-left: 7%;
+    }
+}
