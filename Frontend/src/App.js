@@ -8,13 +8,12 @@ import StdDetailsComponent from './components/StudentDetailsComponent/StdDetails
 function App() {
   return (
     <div className="App">
-      {/* <img src="/favicon.png" alt="" /> */}
         <div className="App-header">
           <Router>
             <Routes>
               <Route exact path="/" element={<HomeComponent/>}/>
-              <Route exact path="/student/add" element={<StdFormComponent/>}/>
-              <Route exact path="/student/details" element={<StdDetailsComponent/>}/>
+              {/* <Route path="/student/add" element={<StdFormComponent/>}/>
+              <Route path="/student/details" element={<StdDetailsComponent/>}/> */}
             </Routes>
           </Router>
         </div>
