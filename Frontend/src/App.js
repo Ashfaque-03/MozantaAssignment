@@ -1,8 +1,8 @@
 import './App.css';
 import HomeComponent from './components/HomeComponent';
 import {BrowserRouter as Router,Routes,Route} from 'react-router-dom'
-import StdFormComponent from './components/StudentFormComponent/StdFormComponent';
-import StdDetailsComponent from './components/StudentDetailsComponent/StdDetailsComponent';
+// import StdFormComponent from './components/StudentFormComponent/StdFormComponent';
+// import StdDetailsComponent from './components/StudentDetailsComponent/StdDetailsComponent';
 
 
 function App() {

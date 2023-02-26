@@ -28,7 +28,7 @@ export default function StdFormComponent() {
                 <h6>Trivandrum, Kerala, Pincode-695581</h6>
             </div>
             {/* e=>event */}
-            <form onSubmit={(e) => { checkInputs(name, dob, cls, division, gender); e.preventDefault(); }}>
+            <form onSubmit={(e) => { checkInputs(name, dob, cls, division, gender); e.preventDefault(); }} autocomplete="off">
                 <div className='inpBox'>
                         <h3 className='mb-3'>
                             Add New Student
