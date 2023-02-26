@@ -10,13 +10,13 @@ function App() {
     <div className="App">
       {/* <img src="/favicon.png" alt="" /> */}
         <div className="App-header">
-          <Router>
+          <Router basename='/MozantaAssignment'>
             
             <h1></h1>
             <Routes>
-              <Route exact path="/" element={<HomeComponent/>}/>
-              <Route exact path="/student/add" element={<StdFormComponent/>}/>
-              <Route exact path="/student/details" element={<StdDetailsComponent/>}/>
+              <Route exact path="/MozantaAssignment" element={<HomeComponent/>}/>
+              <Route path="/student/add" element={<StdFormComponent/>}/>
+              <Route path="/student/details" element={<StdDetailsComponent/>}/>
             </Routes>
           </Router>
         </div>
