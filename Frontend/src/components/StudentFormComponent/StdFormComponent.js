@@ -62,7 +62,7 @@ export default function StdFormComponent() {
                         value={cls}
                         className='sel cp'
                         onChange={e => setCls(e.target.value)} >
-                        <option value="0" disabled required>Select Class</option>
+                        <option value="0" disabled>Select Class</option>
                         <option value="I">I</option>
                         <option value="II">II</option>
                         <option value="III">III</option>
