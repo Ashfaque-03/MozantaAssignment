@@ -4,7 +4,6 @@ import {BrowserRouter as Router,Routes,Route} from 'react-router-dom'
 // import StdFormComponent from './components/StudentFormComponent/StdFormComponent';
 // import StdDetailsComponent from './components/StudentDetailsComponent/StdDetailsComponent';
 
-
 function App() {
   return (
     <div className="App">
@@ -17,7 +16,6 @@ function App() {
             </Routes>
           </Router>
         </div>
-        
     </div>
   );
 }
