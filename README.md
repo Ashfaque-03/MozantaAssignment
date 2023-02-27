@@ -104,7 +104,7 @@ mvn spring-boot:run
 
 In Visual Studio Code, open Backend folder
 
-Right click the **StudentApplication.java** file located in *Backend\students\src\main\java\com\mozanta\students\StudentsApplication.java* and click the option **Run Java**.
+Right click the **StudentApplication.java** file located in *Backend\students\src\main\java\com\mozanta\students\StudentsApplication.java* and click the option **Run Java** (select the class name if asked).
 
 It will run the SpringBoot backend
 

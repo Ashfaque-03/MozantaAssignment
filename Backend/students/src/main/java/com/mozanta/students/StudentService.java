@@ -88,8 +88,8 @@ public class StudentService {
 
     // checking class of student
     private static boolean checkClass(String cls){
-        if (cls.matches("I") || cls.matches("II") || cls.matches("III") || cls.matches("IV") || cls.matches("V") || cls.matches("VI") || 
-            cls.matches("VII") || cls.matches("VIII") || cls.matches("IX") || cls.matches("X") || cls.matches("X11") || cls.matches("X12")){
+        if (cls.matches("I") || cls.matches("II") || cls.matches("III") || cls.matches("IV") || cls.matches("V") || cls.matches("V1") || 
+            cls.matches("V11") || cls.matches("V111") || cls.matches("1X") || cls.matches("X") || cls.matches("X11") || cls.matches("X12")){
                 return true;
         }
         return false;
