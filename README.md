@@ -85,7 +85,6 @@ The application has just one url **http://localhost:3000/** which ties to *Home*
 For building and running the application you need:
 
 - [JDK 17.0.6](https://www.oracle.com/in/java/technologies/downloads/#jdk17-windows)
-- [Maven 3](https://maven.apache.org)
 
 For Java development that provides Java IntelliSense, debugging, testing, Maven/Gradle support, project management and generating quickstart Spring Boot Java projects with Spring Initiailizr API. Install these Extensions (for Visual Studio Code)
 
@@ -96,18 +95,13 @@ For Java development that provides Java IntelliSense, debugging, testing, Maven/
 
 There are several ways to run a Spring Boot application on your local machine. One way is to execute the `main` method in the `com.mozanta.students.StudentsApplication` class from your IDE.
 
-Alternatively you can use the [Spring Boot Maven plugin](https://docs.spring.io/spring-boot/docs/current/reference/html/build-tool-plugins-maven-plugin.html) like so:
-
-```shell
-mvn spring-boot:run
-```
-
 In Visual Studio Code, open Backend folder
 
 Right click the **StudentApplication.java** file located in *Backend\students\src\main\java\com\mozanta\students\StudentsApplication.java* and click the option **Run Java** (select the class name if asked).
 
-It will run the SpringBoot backend
+Note: Repeat the above step if error occurs.
 
+It will run the SpringBoot backend
 
 ## Resources
 
